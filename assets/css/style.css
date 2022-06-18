@@ -1,0 +1,65 @@
+:root {
+    --dark: #212f3d;
+    --light: #85c1e9;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 15px 0 15px;
+    background-color: var(--dark);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+h1 {display: inline-block;
+    font-size: 48px;
+    color: var(--dark);
+    text-align: right;
+    width: 350px;
+    padding-right: 10px;
+    margin-left: -15px;
+    margin-top: -13px;
+    box-sizing: border-box;
+    position: relative;
+    background: var(--light);
+}
+
+header nav {
+    padding-top: 15px;
+    flex: 1;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav a {
+color: var(--light);
+}
+
+.hero {
+    height: 150px;
+    width: 100%;
+    background-image: url("/assets/images/download.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero img {
+    height: 100%;
+}
