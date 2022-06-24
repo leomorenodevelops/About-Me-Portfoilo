@@ -124,12 +124,39 @@ p {
 .title {
     display: flex;
     flex-direction: column;
-    width: 30%; 
+    width: 25%; 
 }
+ 
+/* h3 { 
+    display: inline-block;
+    font-size: 12px;
+    color: var(--dark);
+
+}
+
+.small-box p {
+    margin: 1% 0;
+    font-size: 8px;
+    line-height: 1.5;
+    color: var(--dark); 
+} */
 
 /* placeholder images from pexels.com */
 .images {
     width: 100%;
+}
+
+.container {
+    position: relative;
+  }
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--light);
+    color: var(--dark);
+
 }
 
 .footer-section {
