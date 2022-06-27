@@ -13,5 +13,10 @@ I learned a lot during this project about html and styling elements to make my w
 5. Clink links to verify they redirect to the correct URL
 
 ## Usage
+![Screenshot 2022-06-26 182002](https://user-images.githubusercontent.com/105739936/175840126-03262a2b-56bf-4ad6-9121-f4a13bb3838a.png)
+![Screenshot 2022-06-26 182110](https://user-images.githubusercontent.com/105739936/175840234-a157bd0b-eb52-40df-a382-4eb1c24d881a.png)
 
+## Credits
+Got images from pexels.com
  
+ Deployed code URL: https://leomorenodevelops.github.io/About-Me-Portfoilo/
