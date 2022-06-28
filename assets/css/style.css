@@ -111,7 +111,6 @@ p {
 
 /* Tagets big box properties */
 .big-box {
-    width: 100%;
     height: 300px;
     background-image: url("../images/Horiseon.png");
     background-size: cover;
@@ -119,6 +118,9 @@ p {
     margin-bottom: 8px;
 }
 
+.content a {
+    width: 100%;
+}
 
 /* Targets small boxes properties */
 .small-box {
@@ -290,9 +292,7 @@ p {
         flex-direction: column;
         margin: 0;
     }
-    .big-box {
-        min-width: 585px;
-    }
+    
     .small-box {
         min-width: 100%;
         margin: 5px;
